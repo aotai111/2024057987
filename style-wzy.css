@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header{
+        width: 1920px;
+        height: 1080px;
+        left: 0;
+        top: 0;
+position: absolute;
+}
+.hua{
+    width: 960px;
+    height: 960px;
+    top: -1000px;
+    left: 0px;
+    position: relative;
+    transition: all 8s ;
+}
+.hua:hover{
+    top:100px;
+    left:100px;
+
+}
+.pg1{
+    width: 1920px;
+    height: 1080px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.content{
+    width: 1920px;
+    height: 1080px;
+    left: 0;
+    top: 1080px;
+    position: relative;
+}
+.content_center{
+    width: 400px;
+    height: 400px;
+    top:200px ;
+    right: -100px;
+    position: absolute;
+}
+.ren{
+    width: 700px;
+    height: 700px;
+    right: 700px;
+    position: relative;
+    opacity: 0;
+    transition: all 5s ease;
+    
+}
+.ren:hover{
+    opacity: 1;
+    transform: translateX(-300px);
+}
+.kuang{
+    width: 800px;
+    height: 800px;
+    right: 1050px;
+    top: -790px;
+    position: relative;
+}

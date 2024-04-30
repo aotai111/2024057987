@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header{
+    width:100%;
+    position: relative;
+}
+.p11{
+    position: relative;
+    width:100%;
+    top: 0;
+}
+.header_left{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+}
+.zsj{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 400px;
+    height: 500px;
+}
+.header_right{
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+}
+.zsjwz{
+    width: 280px;
+    top: 200px;
+    left: 160px;
+    position: absolute;
+    
+}
+.zsjwz:hover{transform: scale(1.2);}
+.jj{
+    width: 600px;
+    height: 300px;
+    left: 80px;
+    top: 320px;
+    position: absolute;
+}
+.jj:hover{
+    opacity: 1;
+    transition:all 2s;
+}
+.content{
+    width:100%;
+    position: relative;
+}
+.bg{
+    position: relative;
+    width:100%;
+    top: -5px 
+}
+.zwz{
+    position: absolute;
+    width: 260px;
+    height: 500px;
+    top: 60px;
+    left: 5px;
+}
+.djs{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    top: 60px;
+    left: 5px;
+}
+.djs:hover{display: none;}
+.ywz{
+    position: absolute;
+    width: 260px;
+    height: 500px;
+    top: 60px;
+    right: 5px;
+}
+.tys{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    top: 60px;
+    right: 5px;
+}
+.tys:hover{display: none;}
+.zjtp{
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    top: 60px;
+    left: 345px;
+}
+.zjtp:hover{transform: scale(1.2);}

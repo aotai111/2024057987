@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-zhangheng.css">
+    <title>张衡-古代数学！启动！</title>
+</head>
+<body>
+    <div class="pagezhangheng">
+        <div class="header">
+            <div class="logo">
+                <img src="img/title:text.png" alt="Logo">
+             </div>
+         </div>  
+        <img src="img/zh cs.png" alt="" class="renwu">
+        <img src="img/zhanghengpage1text.png" alt="" class="textjieshao">
+    </div>
+    <div class="chengjiu">
+        <div class="content">
+            <p>张衡,东汉末年数学家、地理学家、天文学家、发明家。<br>他最著名的发明是地动仪，被认为是中国最早的地震仪器。</p>
+            <button id="showQuote"><img src="img/suanpan.png" alt="Quote Icon" width="100px" height="100opx"></button>
+            <p id="quote">
+                <img src="img/huntianyi.jpg" alt="" width="300px">
+                <img src="img/lingxian.jpg" alt="" width="300px">
+                <img src="img/suanwanglun.jpeg" alt="" width="300px">
+
+            </p>
+        </div>
+        <h3> &nbsp;&nbsp; 在数学方面，张衡的主要贡献包括对圆周率的研究。<br> &nbsp; &nbsp;他的研究结果表明圆周率在3.14到3.16之间，这一成果在当时是相当先进的。 <br>&nbsp; &nbsp;张衡还撰写了一部数学著作《算罔论》，虽然这本书已经失传，但他在数学上的贡献仍然被后人所认可。
+            除了数学，张衡在天文、地理、文学、绘画等方面也有显著成就。他改进了“浑天仪”，这是一种可以模拟天体运行的仪器，并在《灵宪》一书中记录了他的天文观测和研究。 <br>&nbsp; &nbsp;此外，张衡还绘制了一幅“地形图”，这幅图一直流传到唐朝，显示出他对地理学的深刻理解。<br>
+            &nbsp; &nbsp; 张衡的成就不仅在当时具有重要影响，而且对后世也有深远的影响。 <br>例如，国际天文学联合会将月球背面的一个环形山命名为“张衡环形山”，太阳系中的1802号小行星也被命名为“张衡星”，以纪念他的贡献。</h3>
+            <img class="footer" src="img/zhanghengpage2.png" alt="">
+        <script>
+            const button = document.getElementById('showQuote');
+            const quote = document.getElementById('quote');
+        
+            button.addEventListener('click', function() {
+              if (quote.style.display === 'none') {
+                quote.style.display = 'block';
+              } else {
+                quote.style.display = 'none';
+              }
+            });
+          </script>
+    </div>
+</body>
+</html>

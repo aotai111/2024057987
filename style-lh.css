@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    max-height: 168vh;
+    left: 0;
+    top: 0;
+}
+.liuhuipage{
+    position: relative;
+    background: url(img/op.png) no-repeat center center;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-width: 1280px;
+    height:800px;
+    overflow: hidden;
+}
+.logo img{
+    position:relative;
+    height: 100px; 
+    left: 40px;
+    top: -5px;
+  }
+  .renwu{
+    position: absolute;
+    bottom: 0;
+    left: 920px;
+    z-index: 1;
+}
+.lhname{
+    position: absolute;
+    bottom: -24px;
+    left: 1120px;
+    width: 200px;
+    z-index: 3;
+}
+.shiyitu{
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    z-index: 0;
+}
+.geyuanshu{
+    position:absolute;
+    bottom: -12px;
+}
+.chengjiu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+.find{
+    position: absolute;
+    top: 60px;
+    width: 60vw;
+    height: 40vh;
+    max-width: 380px;
+    max-height: 250px;
+    margin: 0;
+    color: #fff;
+    perspective: 1000px;
+    transform-origin: center;
+    z-index: 2;
+}
+.content{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: translateZ(-30vw) rotateY(0);
+    animation: carousel 9s infinite cubic-bezier(0.77,0,0.175,1) forwards;
+}
+.item{
+    position: absolute;
+    width: 60vw;
+    height: 40vh;
+    max-width: 380px;
+    max-height: 250px;
+    box-shadow: 0 5px 20px rgba(0,0,0, 0.3);
+    border-radius: 6px;
+    background-size: cover;
+    -webkit-box-relect:below 25px -webkit-linear-gradient(transparent 50%,rgba(255,255,255,0.3))
+}
+.item:nth-child(1){
+    background-image: url(img/jiuzhangsuanshu1.jpg);
+    transform: rotateY(0) translateZ(35vw);
+}
+.item:nth-child(2){
+    background-image: url(img/jiuzhangsuanshu2.jpg);
+    transform: rotateY(120deg) translateZ(35vw);
+}
+.item:nth-child(3){
+    background-image: url(img/jiuzhangsuanshu3.jpg);
+    transform: rotateY(240deg) translateZ(35vw);
+}
+@keyframes carousel{
+  0%,17.5% {
+    transform: translateZ(-35vw) rotateY(0);
+  }
+  27.5%,45% {
+    transform: translateZ(-35vw) rotateY(-129deg);
+  }
+  55%,72.5% {
+    transform: translateZ(-35vw) rotateY(-240deg);
+  }
+  82.5%,100% {
+    transform: translateZ(-35vw) rotateY(-360deg);
+  }
+
+}

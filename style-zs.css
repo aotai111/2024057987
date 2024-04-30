@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+.bg1{
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+.zsmz{
+    position: absolute;
+    width: 1200px;
+    top: 250px;
+    left: 0;
+}
+.zsmz:hover{transform: scale(1.2);}
+.jj{
+    position: absolute;
+    width:1200px ;
+    height: 600px;
+    top: 400px;
+}
+.zs{
+    position: absolute;
+    width: 600px; ;
+    height: 600px;
+    top: 200px;
+    right: 100px;
+}
+.content{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+.bg2{
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+.content_left{
+    position: absolute;
+    width: 1000px;
+    height: 1080px;
+    left: 0;
+    top: 0;
+}
+.sj{
+    position: absolute;
+    width:900px ;
+    height: 900px;
+    top: 100px;
+    left: 100px;
+}
+.ggdl{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 120px;
+    left: 250px;
+    opacity: 0;
+    transition: 2s ease-in-out;
+}
+.ggdl:hover{
+    opacity: 1;
+    transition: 2s ease-in-out;
+}
+.content_right{
+    position: absolute;
+    width: 920px;
+    height: 1080px;
+    left: 1000px;
+    top: 0;
+}
+.js{
+    position: absolute;
+    width: 1000px;
+    height: 920px;
+    top: 100px;
+    right: 100px;
+}

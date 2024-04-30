@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <title>古代数学！启动！</title>
+</head>
+<body>
+    <div class="header">
+        <div class="background"><span>Chinese<br>MATH</span></div>
+        <script>
+            const background=document.querySelector(".background")
+
+            document.addEventListener('scroll',()=>{
+                const scrollY=window.scrollY
+
+                if(scrollY !==0){
+                    background.style.backgroundPosition = `calc(50% + ${scrollY}px) calc(50% + ${scrollY}px)`
+                }else{
+                    background.style.backgroundPosition = ''
+                }
+            })
+        </script>
+        <div class="NavigationBar clearfix">
+            <div class="logo fl">
+                <img src="img/title:text.png" alt="Logo">
+              </div>
+              <nav fr>
+                <ul>
+                  <li><a href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/index.html">首页</a></li>
+                  <li><a href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/zuchoongzhi.html">祖冲之</a></li>
+                  <li><a href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/zhangheng.html">张衡</a></li>
+                  <li><a href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/liuhui.html">刘徽</a></li>
+                  <li><a href="file:///Users/xiangyueyi/Desktop/古代数学！启动！/王贞仪.html">王贞仪</a></li>
+                  <li><a href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/zhaoshuang.html">赵爽</a></li>
+                  <li><a href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/zhushijie.html.html">朱世杰</a></li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+    <div class="shuxuejia_content">
+        <div class="page1">
+            <div id="Carousel-slider">
+                <section>
+                    <div class="Carousel-slider">
+                        <div class="slider-item zhangheng" data-href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/zhangheng.html"></div>
+                        <div class="slider-item liuhui" data-href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/liuhui.html"></div>
+                        <div class="slider-item zuchongzhi" data-href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/zuchoongzhi.html"></div>
+                        <div class="slider-item zhaoshuang" data-href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/zhaoshuang.html"></div>
+                        <div class="slider-item wangzhenyi" data-href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/%E7%8E%8B%E8%B4%9E%E4%BB%AA.html"></div>
+                        <div class="slider-item zhushijie" data-href="file:///Users/xiangyueyi/Desktop/%E5%8F%A4%E4%BB%A3%E6%95%B0%E5%AD%A6%EF%BC%81%E5%90%AF%E5%8A%A8%EF%BC%81/zhushijie.html.html"></div>
+                    </div>
+                </section>
+            </div>
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
+            <script  src="./script.js"></script>
+            
+        </div>
+        <div class="shuxuejia zcz">
+            <div class="shuxuejia_rw">
+                <div class="zcz_rw" id="zczheibai" onMouseOver="show('zczheibai','zczcaise')">
+                    <img src="img/zczhb.png" alt="">
+                </div>
+                <div class="zcz_rwcolor" id="zczcaise"  >
+                    <img src="img/zczcaise.png" alt="">
+                </div>
+                <script src="script.js"></script>
+            </div>
+         <script type="text/javascript">
+            function show(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+            function hide(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+         </script>  
+        
+        </div>
+        <div class="shuxuejia zh">
+            <div class="shuxuejia_rw">
+                <div class="zh_rw" id="zhheibai" onMouseOver="show('zhheibai','zhcaise' )">
+                    <img src="img/zh hb.png" alt="">
+                </div>
+                <div class="zh_rwcolor" id="zhcaise">
+                    <img src="img/zh cs.png" alt="">
+                </div>
+
+            </div>
+         <script type="text/javascript">
+            function show(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+            function hide(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+
+         </script>   
+        </div>
+        <div class="shuxuejia lh">
+            <div class="shuxuejia_rw">
+                <div class="lh_rw" id="lhheibai" onMouseOver="show('lhheibai','lhcaise')">
+                    <img src="img/lh hb.png" alt="">
+                </div>
+                <div class="lh_rwcolor" id="lhcaise" >
+                    <img src="img/lh cs.png" alt="">
+                </div>
+            </div>
+         <script type="text/javascript">
+            function show(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+            function hide(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+         </script>  
+        </div>    
+        <div class="shuxuejia wzy">
+            <!-- <h2>王贞仪</h2> -->
+            <div class="shuxuejia_rw">
+                <div class="wzy_rw" id="wzyheibai" onMouseOver="show('wzyheibai','wzycaise' )">
+                    <img src="img/wzy-hb.png" alt="">
+                </div>
+                <div class="wzy_rwcolor" id="wzycaise">
+                    <img src="img/wzy-cs.png" alt="">
+                </div>
+
+            </div>
+         <script type="text/javascript">
+            function show(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+            function hide(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+         </script>   
+        </div>
+        <div class="shuxuejia zs">
+            <!-- <h2>赵爽</h2> -->
+            <div class="shuxuejia_rw">
+                <div class="zs_rw" id="zsheibai" onMouseOver="show('zsheibai','zscaise' )">
+                    <img src="img/zshb.png" alt="">
+                </div>
+                <div class="zs_rwcolor" id="zscaise">
+                    <img src="img/zscs.png" alt="">
+                </div>
+
+            </div>
+         <script type="text/javascript">
+            function show(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+            function hide(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+         </script>   
+        </div>
+        <div class="shuxuejia zsj">
+            <!-- <h2>朱世杰</h2> -->
+            <div class="shuxuejia_rw">
+                <div class="zsj_rw" id="zsjheibai" onMouseOver="show('zsjheibai','zsjcaise' )">
+                    <img src="img/zsjhb.png" alt="">
+                </div>
+                <div class="zsj_rwcolor" id="zsjcaise">
+                    <img src="img/zsjcs.png" alt="">
+                </div>
+            </div>
+         <script type="text/javascript">
+            function show(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+            function hide(i,j,t){
+                x=document.getElementById(i)
+                y=document.getElementById(j)
+                z=document.getElementById(t)
+                x.style.display="none"
+                y.style.display="block"
+                z.style.display="none"
+            }
+         </script>   
+        </div>
+        
+    </div>
+    
+</body>
+</html>
